@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Core ML & NLP Libraries
+torch = "*"  
+transformers = {version="*", extras=["accelerate", "sentencepiece"]}
+spacy = "*"
+scikit-learn = "*"
+datasets = "*"
+pandas = "*"
+protobuf = "*"
+nltk = "*"
+gensim = "*"
+nlpaug = "*"
+
+# Visualization & Utilities
+seaborn = "*"
+matplotlib = "*"
+plotly = "*"
+tqdm = "*"
+
+[dev-packages]
+ipykernel = "*"
+ipywidgets = "*"
+
+[requires]
+python_version = "3.11"

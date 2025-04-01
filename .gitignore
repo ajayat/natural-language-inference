@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+
+# Python
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# Models
+models/

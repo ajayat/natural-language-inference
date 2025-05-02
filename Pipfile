@@ -21,6 +21,7 @@ seaborn = "*"
 matplotlib = "*"
 plotly = "*"
 tqdm = "*"
+bertviz = "*"
 
 [dev-packages]
 ipykernel = "*"

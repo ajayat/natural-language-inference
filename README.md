@@ -8,5 +8,9 @@ The code provided here demonstrates how to fine-tune a pre-trained transformer m
 pipenv install --dev
 ```
 
+## Model
+
+You can find the finetuned version of XLM-RoBERTa (Large) for this specific NLI task on the [HuggingFace Hub](https://huggingface.co/ajayat/xlm-roberta-large-xnli).
+
 ## Authors
 Adrien Jayat, Ryan Belaib, Etienne De Poix
